@@ -201,8 +201,6 @@ body{
     width:310px;
 }
 
-
-
 .flip-card-05 .flip-card-back p {
     padding: 44px;
     padding-top:6px;
@@ -222,7 +220,6 @@ body{
     padding-top: 45px;
 }
 
-
 .flip-card-07 .flip-card-back p {
     padding-top: 55px;
     padding-left: 31px;
@@ -232,4 +229,8 @@ body{
 .flip-card-03 .flip-card-back p {
 padding-top: 69px;
     padding-right: 60px;
+}
+
+.flip-card-06 .flip-card-back p {
+    padding-top:76px;
 }
