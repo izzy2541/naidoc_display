@@ -61,6 +61,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .flip-card-back {
@@ -110,6 +111,8 @@ body{
 
 .flip-card-back p {
     padding: 40px;
+            color: #fff;
+            line-height: 1.2;
 }
 
 /* Styles unordered lists on the back face of the flip card. */
@@ -186,6 +189,7 @@ body{
     background-image: url("../img/final_shape_02_front.svg");
     background-repeat: no-repeat;
     background-size: contain;
+        width:310px;
 }
 
 .flip-card-05 .flip-card-front p{
@@ -194,5 +198,38 @@ body{
 
 .flip-card-05 .flip-card-back {
     background-image: url("../img/final_shape_02_back.svg");
+    width:310px;
 }
 
+
+
+.flip-card-05 .flip-card-back p {
+    padding: 44px;
+    padding-top:6px;
+}
+
+.flip-card-02 .flip-card-back p,
+.flip-card-09 .flip-card-back p {
+    padding-top: 73px;
+}
+
+.flip-card-03 .flip-card-back p,
+.flip-card-07 .flip-card-back p {
+    padding-top: 55px;
+}
+
+.flip-card-04 .flip-card-back p{
+    padding-top: 45px;
+}
+
+
+.flip-card-07 .flip-card-back p {
+    padding-top: 55px;
+    padding-left: 31px;
+    padding-right: 64px;
+}
+
+.flip-card-03 .flip-card-back p {
+padding-top: 69px;
+    padding-right: 60px;
+}
