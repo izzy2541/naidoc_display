@@ -3,9 +3,11 @@
 
 * {
     box-sizing: border-box;
+
+    font-family: Arial, "sans-serif";
 }
 
-body{
+body {
     background-color: #00594f;
     width: 100%;
     display: flex;
@@ -14,6 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Styles the container for the flip cards.  */
 #flip_card_container {
     display: flex;
@@ -47,7 +50,7 @@ body{
     overflow: hidden;
     text-align: center;
     color: #000;
-        background-position: center;
+    background-position: center;
 }
 
 /* Styles the front and back faces of the flip card. */
@@ -111,8 +114,8 @@ body{
 
 .flip-card-back p {
     padding: 40px;
-            color: #fff;
-            line-height: 1.2;
+    color: #fff;
+    line-height: 1.2;
 }
 
 /* Styles unordered lists on the back face of the flip card. */
@@ -189,21 +192,21 @@ body{
     background-image: url("../img/final_shape_02_front.svg");
     background-repeat: no-repeat;
     background-size: contain;
-        width:310px;
+    width: 310px;
 }
 
-.flip-card-05 .flip-card-front p{
+.flip-card-05 .flip-card-front p {
     margin-top: -5px;
 }
 
 .flip-card-05 .flip-card-back {
     background-image: url("../img/final_shape_02_back.svg");
-    width:310px;
+    width: 310px;
 }
 
 .flip-card-05 .flip-card-back p {
     padding: 44px;
-    padding-top:6px;
+    padding-top: 6px;
 }
 
 .flip-card-02 .flip-card-back p,
@@ -216,7 +219,7 @@ body{
     padding-top: 55px;
 }
 
-.flip-card-04 .flip-card-back p{
+.flip-card-04 .flip-card-back p {
     padding-top: 45px;
 }
 
@@ -227,10 +230,51 @@ body{
 }
 
 .flip-card-03 .flip-card-back p {
-padding-top: 69px;
+    padding-top: 69px;
     padding-right: 60px;
 }
 
 .flip-card-06 .flip-card-back p {
-    padding-top:76px;
+    padding-top: 76px;
+}
+
+.nav_btns {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    padding-top: 5px;
+    background-color: transparent;
+    color: #444;
+    /* padding: 18px; */
+    width: 70px;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.arrow_path {
+    fill: #fff;
+}
+
+.cls-1,
+.arrow_path {
+    stroke-width: 0px;
+}
+
+#navigation circle {
+    fill: #000;
+    opacity: .51;
+}
+
+button#fwrd_btn{
+    position: relative;
+    align-self: flex-end;
 }
