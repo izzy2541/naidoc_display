@@ -136,6 +136,7 @@ body {
   color: #fff;
   background-color: #2e977e;
   padding: 0.7em;
+  font-family: FranklinGothicDemi;
 }
 
 .tabset_heading:nth-of-type(-n + 2) {
