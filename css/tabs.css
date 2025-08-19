@@ -17,7 +17,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url("../../img/darkened_background.png");
+  background-image: url("../img/darkened_background.png");
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
