@@ -54,6 +54,7 @@ body {
     background-position: center;
       backface-visibility: hidden;
   -webkit-backface-visibility: hidden; /* iOS Safari */
+  font-family: FranklinGothicDemi;
 }
 
 /* Styles the front and back faces of the flip card. */
@@ -113,6 +114,7 @@ body {
     padding: 0 0.5em;
     color: #fff;
     margin-top: 0px;
+      font-family: FranklinGothicDemi;
 }
 
 .flip-card-back p {
