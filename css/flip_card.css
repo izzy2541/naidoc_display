@@ -3,7 +3,6 @@
 
 * {
     box-sizing: border-box;
-
     font-family: Arial, "sans-serif";
 }
 
@@ -15,6 +14,7 @@ body {
     background-image: url("../img/rap_bg_shape_darkened.png");
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
 }
 
 /* Styles the container for the flip cards.  */
@@ -51,6 +51,8 @@ body {
     text-align: center;
     color: #000;
     background-position: center;
+      backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* iOS Safari */
 }
 
 /* Styles the front and back faces of the flip card. */
@@ -242,10 +244,13 @@ body {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
+    margin-left: 2em;
+    margin-top:0.5em;
+    margin-right: 2em;
 }
 
-button {
+.nav_btns a  {
     padding-top: 5px;
     background-color: transparent;
     color: #444;
@@ -272,9 +277,4 @@ button {
 #navigation circle {
     fill: #000;
     opacity: .51;
-}
-
-button#fwrd_btn{
-    position: relative;
-    align-self: flex-end;
 }
