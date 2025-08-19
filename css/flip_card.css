@@ -279,3 +279,7 @@ body {
     fill: #000;
     opacity: .51;
 }
+
+.flip-card:nth-child(-n+3) {
+margin-top: 0px;
+}
