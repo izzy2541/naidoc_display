@@ -118,7 +118,7 @@ backBtn.appendChild(backSvg);
 const fwrdBtn = document.createElement("a");
 fwrdBtn.id = "fwrd_btn";
 
-fwrdBtn.setAttribute("href", "interaction_02.html");
+fwrdBtn.setAttribute("href", "interaction_01.html");
 
 const fwrdSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 fwrdSvg.setAttribute("data-name", "Layer 2");
