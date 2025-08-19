@@ -23,7 +23,7 @@ const circlesContent = [
     "Native",
     "The term native can be ambiguous and is derogatory.  It is often linked to colonialism and the dehumanisation of First Nation people. It reinforces the stereotype of First Nation Peoples are uncivilised and primitive.It is best to use a more respectful term.",
     58,
-    14.2,
+    17,
     2,
   ],
   [

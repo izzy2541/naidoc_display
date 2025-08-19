@@ -12,8 +12,6 @@ edited to work as keyboard accessible a links instead of buttons (PD)
 }
 
 body {
-  /* margin: 0;
-  padding: 0; */
   width: 100%;
   display: flex;
   justify-content: center;
