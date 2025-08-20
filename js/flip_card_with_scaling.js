@@ -1,7 +1,3 @@
-/*
-
-*/
-
 // hold all content in the 3D array
 const circlesContent = [
   // label, reveal text, xpos, ypos, feedback colours
@@ -38,7 +34,7 @@ const circlesContent = [
     "Aboriginal and Torres Strait Islanders often use this word amongst themselves.  Non-First Nation peoples should not use this term.",
     24.2,
     62.8,
-    1,
+    2,
   ],
   [
     "Bruz/sis",

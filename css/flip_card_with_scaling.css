@@ -18,6 +18,7 @@ html,
    font-family: Arial, "sans-serif";
   font-size: medium;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -80,15 +81,11 @@ body {
   box-sizing: border-box;
   will-change: transform;
 }
-.front, .back {/*trying to fix text blurring in Firefox*/
-/*   transform-origin: 50%  51%;
-  -moz-transform-origin: 50%  51%; 
-  zoom: 1.005;*/
-}
+
 .front {
   /*   z-index: 2; */
   font-size: 1.1rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   border: 2px solid #fff;
 }
 
@@ -104,7 +101,7 @@ body {
 .circle-label {
   text-align: center;
   /*   margin-top:0.5em; */
-  font-family: FranklinGothicDemi;
+  font-family: FranklinGothicHeavy;
   font-size: 1.1em;
 }
 

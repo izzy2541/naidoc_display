@@ -130,13 +130,13 @@ body {
 .tabset_heading {
   border-bottom: 4px solid var(--black);
   font-size: 1.9em;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 0.8em;
   max-width: 700px;
   color: #fff;
   background-color: #2e977e;
   padding: 0.7em;
-  font-family: FranklinGothicDemi;
+  font-family: FranklinGothicHeavy;
 }
 
 .tabset_heading:nth-of-type(-n + 2) {
@@ -178,7 +178,7 @@ body {
     outline: none;
     transition: 0.4s;
     cursor: pointer;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: 2px;
 }
 
