@@ -238,7 +238,7 @@ function expandCircle(wrapper) {
   const flipper = wrapper.querySelector(".flipper");
   const ellipsis = wrapper.querySelector(".ellipsis");
 
-  wrapper.style.transform = "translate(-50%, -50%) scale(2.5)";
+  wrapper.style.transform = "translate(-50%, -50%) scale(2.7)";
   flipper.style.transform = "rotateY(0deg)";
   ellipsis.textContent = ".";
   let dotCount = 1;
