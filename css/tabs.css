@@ -19,8 +19,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
-      height: 1080px;
-      overflow: visible;
+ height: 1080px;
+  overflow: visible;
+  margin: 0px;
 }
 
 #tabs_container {
@@ -32,6 +33,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   margin: auto;
+  margin-top: 1em;;
 }
 
 .img_center {
@@ -99,12 +101,12 @@ body {
 
 .tabset-panels {
   padding: 10px;
-  min-height: 250px;
-  height: 265px;
+  /* min-height: 250px; */
+  height: 230px;
   /* overflow-y: scroll; */
   background-color: #00594f;
   color: #fff;
-  padding: 1.2em;
+  padding: 1.17em;
   font-size: 1.2em;
   line-height: 1.4;
 }
@@ -118,7 +120,7 @@ body {
 }
 
 .tabset-panel p {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .tabset-panel p:last-of-type {

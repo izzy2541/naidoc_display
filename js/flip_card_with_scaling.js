@@ -45,7 +45,7 @@ const circlesContent = [
     "Aboriginal and Torres Strait Islanders often use these words amongst themselves.  Non-First Nation peoples should not use these terms unless they have a conversation with the First Nation person involved.",
     50,
     52,
-    2,
+    3,
   ],
   [
     "ATSI",
@@ -59,7 +59,7 @@ const circlesContent = [
     "This term is outdated and not always the preferred or most respectful term.  The dictionary definition is native, an inappropriate and offensive term. It is not specific to our Aboriginal and Torres Strait Islanders as there are other Indigenous people in the world.",
     41.3,
     77.8,
-    2,
+    3,
   ],
   [
     "Aborigine",

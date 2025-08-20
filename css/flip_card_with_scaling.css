@@ -2,12 +2,14 @@
 */
 
 :root {
-  --default-circle-diameter: 130px;/* size of the interactive circles */
-  --outline-1: #307138;/*feedback - good choice outline and fill*/
+  --default-circle-diameter: 150px;/* size of the interactive circles */
+  /* --outline-1: #307138;feedback - good choice outline and fill */
+    --outline-1: #252F24;;/*feedback - good choice outline and fill*/
   --bgcolor-1: #275127;
-  --outline-2: #792416;/*feedback - bad choice outline and fill*/
+  /* --outline-2: #792416;feedback - bad choice outline and fill */
+    --outline-2: #252F24;/*feedback - bad choice outline and fill*/
   --bgcolor-2: #471515;
-  --outline-3: #cf7128;/*feedback - neutral choice outline and fill*/
+  --outline-3: #252F24;/*feedback - neutral choice outline and fill*/
   --bgcolor-3: #662200;
 }
 
@@ -21,7 +23,7 @@ body {
   padding: 0;
   background-color: #242f24;
   color: #000;
-  background-image: url("https://buzzard.42web.io/img/people_trace_v3_bg.png");
+  background-image: url("../img/people_trace_v3_bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -30,7 +32,7 @@ body {
 #circle-container {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 1050px;
 }
 
 .circle-wrapper {
@@ -96,7 +98,7 @@ body {
   font-size: 0.45rem;
   border: 4px solid #fff;/* gets overridden by JS*/
   color:#fff;
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 
 .circle-label {
