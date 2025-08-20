@@ -45,8 +45,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 2.5em 0;
-  /* border: 1px solid #ccc; */
-  /* border-radius: 5px; */
   overflow: hidden;
   max-width: 700px;
   width: 700px;
@@ -62,8 +60,6 @@ body {
 
 .tabset-nav {
   display: flex;
-  /* border-bottom: 1px solid #ccc; */
-  /* overflow-x: auto; */
 }
 
 .tabset-nav-item {
@@ -103,9 +99,7 @@ body {
 
 .tabset-panels {
   padding: 10px;
-  /* min-height: 250px; */
   height: 230px;
-  /* overflow-y: scroll; */
   background-color: #00594f;
   color: #fff;
   padding: 1.17em;
@@ -155,15 +149,12 @@ body {
 
 .tabset-nav .tabset-nav-item:nth-child(2) {
   border-left: 2px solid #00594f;
-  /* example border */
   border-right: 2px solid #00594f;
 }
 
 .nav_btns {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
-    /* width: 100%; */
     margin-left: 2em;
     margin-top:0.5em;
     margin-right: 2em;
@@ -173,14 +164,12 @@ body {
     padding-top: 5px;
     background-color: transparent;
     color: #444;
-    /* padding: 18px; */
     width: 70px;
     border: none;
     text-align: left;
     outline: none;
     transition: 0.4s;
     cursor: pointer;
-    /* font-weight: bold; */
     margin-top: 2px;
 }
 
