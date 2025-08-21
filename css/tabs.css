@@ -19,8 +19,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
-  height: 1080px;
-  overflow: visible;
+  /* height: 1070px; */
+  /* overflow: visible; */
   margin: 0px;
 }
 
