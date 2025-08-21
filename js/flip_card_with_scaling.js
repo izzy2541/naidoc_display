@@ -17,7 +17,7 @@ const circlesContent = [
   ],
   [
     "Native",
-    "The term native can be ambiguous and is derogatory.  It is often linked to colonialism and the dehumanisation of First Nation people. It reinforces the stereotype of First Nation Peoples are uncivilised and primitive. It is best to use a more respectful term.",
+    "The term native <br> can be ambiguous and is derogatory.  It is often linked to colonialism and the dehumanisation of First Nation people. It reinforces the stereotype of First Nation Peoples are uncivilised and primitive. It is best to use a more <br> respectful term.",
     58,
     21,
     2,
@@ -38,7 +38,7 @@ const circlesContent = [
   ],
   [
     "Bruz/sis",
-    "Aboriginal and Torres Strait Islanders often use these words amongst themselves.  Non-First Nation peoples should not use these terms unless they have a conversation with the First Nation person involved.",
+    "Aboriginal and <br>Torres Strait Islanders often use these words amongst themselves.  Non-First Nation peoples should not use these terms unless they have a conversation with the First Nation person involved.",
     50,
     52,
     3,
@@ -52,7 +52,7 @@ const circlesContent = [
   ],
   [
     "Indigenous",
-    "This term is outdated and not always the preferred or most respectful term.  The dictionary definition is native, an inappropriate and offensive term. It is not specific to our Aboriginal and Torres Strait Islanders as there are other Indigenous people in the world.",
+    "This term is <br>outdated and not always <br> the preferred or most respectful term.  The dictionary definition is native, an inappropriate and offensive term. It is not specific to our Aboriginal and Torres Strait Islanders as there are other Indigenous people in the world.",
     41.3,
     77.8,
     3,
@@ -186,7 +186,7 @@ function createCircle(index, [label, description, x, y, feedbackcolours]) {
       "div"
     ); /*create the circle back class and description text*/
   back.className = "circle back";
-  back.textContent = description;
+  back.innerHTML = description;
   back.style.borderColor = `var(--outline-${feedbackcolours})`; /*make the styling of the feedback dynamic*/
   back.style.backgroundColor = `var(--bgcolor-${feedbackcolours})`; /*make the styling of the feedback dynamic*/
 
