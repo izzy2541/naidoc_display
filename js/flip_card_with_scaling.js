@@ -3,7 +3,7 @@ const circlesContent = [
   // label, reveal text, xpos, ypos, feedback colours
   [
     "First Peoples",
-    "This is an appropriate/acceptable term. It is a term that is gaining prominence. It is used to describe the original inhabitants of Australia before colonisation.  It recognises that Aboriginal and Torres Strait Islanders are the first peoples of Australia.",
+    "This is an appropriate/acceptable <br> term. It is a term that is gaining prominence. It is used to describe the original inhabitants of Australia before colonisation.  It recognises that Aboriginal and Torres Strait Islanders are <br>the first peoples <br> of Australia.",
     16,
     27,
     1,
