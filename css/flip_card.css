@@ -4,6 +4,7 @@
 html, * {
     box-sizing: border-box;
     font-family: Arial, "sans-serif";
+     letter-spacing: 0.025rem;
 }
 
 body {
