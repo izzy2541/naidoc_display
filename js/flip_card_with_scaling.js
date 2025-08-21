@@ -59,7 +59,7 @@ const circlesContent = [
   ],
   [
     "Aborigine",
-    "Although it is grammatically correct, the term Aborigine has a negative connotations and should be avoided.  Remembering the Aborigines Act of 1905 inflicted injustices and detrimental impact upon Aboriginal and Torres Strait Islanders.",
+    "Although it is grammatically correct, <br> the term Aborigine has negative connotations and should be avoided.  Remembering the Aborigines Act of 1905 inflicted injustices and detrimental impact upon Aboriginal and Torres Strait Islanders.",
     83,
     74,
     2,
