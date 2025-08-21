@@ -6,7 +6,7 @@ toggable tabs from https://www.w3schools.com/howto/howto_js_tabs.asp
 edited to work as keyboard accessible a links instead of buttons (PD)
 */
 
-* {
+html, * {
   box-sizing: border-box;
   font-family: Arial, "sans-serif";
 }
