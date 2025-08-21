@@ -17,6 +17,7 @@ html,
 * {
    font-family: Arial, "sans-serif";
   font-size: medium;
+  letter-spacing: 0.04rem;
 }
 
 body {
@@ -100,7 +101,6 @@ body {
 
 .circle-label {
   text-align: center;
-  /*   margin-top:0.5em; */
   font-family: FranklinGothicHeavy;
   font-size: 1.1em;
 }
